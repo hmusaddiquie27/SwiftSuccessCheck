@@ -11,16 +11,21 @@ Animated success tick with completion block developed in swift 3
 ### MEHTOD 1: (Using Pods)
 1. Add a pod entry for `SwiftSuccessCheck` to your Podfile
 
+```
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
 pod 'SwiftSuccessCheck', '~> 0.1'
+```
 
 2. Install the pod(s) by running `pod install`.
 
 ### MEHTOD 2: (Source file)
+
+```
 Alternatively, you can directly clone the complete project from `https://github.com/hmusaddiquie27/SwiftSuccessCheck.git` add copy `SuccessCheck.swift` file under the folder of your project. 
+```
 
 ## Usage
 
