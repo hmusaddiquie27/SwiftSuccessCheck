@@ -1,5 +1,6 @@
 # SwiftSuccessCheck
-Animated success tick with completion block developed in swift 3
+Animated success tick with completion block developed in swift 3.
+This is a WIP. Not recommended for production usage
 
 ## Requirements
 
