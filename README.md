@@ -15,7 +15,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'ABWebView', '~> 0.1'
+pod 'SwiftSuccessCheck', '~> 0.1'
 
 2. Install the pod(s) by running `pod install`.
 
@@ -25,7 +25,7 @@ Alternatively, you can directly clone the complete project from `https://github.
 ## Usage
 
 ```
-// Create instance of SuccessCheck in your controller's `viewDidLoad()` method
+// Create instance of SuccessCheck in your controller's viewDidLoad() method
 var scView = SuccessCheck(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
 
 // Add to the parent view
