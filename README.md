@@ -17,7 +17,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'SwiftSuccessCheck', '~> 0.1'
+pod 'SwiftSuccessCheck'
 ```
 
 2. Install the pod(s) by running `pod install`.
