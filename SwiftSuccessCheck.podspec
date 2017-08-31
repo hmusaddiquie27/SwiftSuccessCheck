@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftSuccessCheck"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Animated success tick with completion block developed in swift 3"
 
   # This description is used to generate tags and improve search results.
