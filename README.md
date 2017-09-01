@@ -1,6 +1,8 @@
 # SwiftSuccessCheck
 Animated success tick with completion block developed in swift 3.
 
+![alt SwiftSuccessCheck](https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/12426/SwiftSuccessCheckExaple.png)
+
 ## Requirements
 
 - iOS 8 and above.
