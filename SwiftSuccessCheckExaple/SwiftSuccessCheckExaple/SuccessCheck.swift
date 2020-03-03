@@ -89,7 +89,7 @@ class SuccessCheck: UIView {
         timer = Timer.scheduledTimer(timeInterval: timerValue, target: self, selector: #selector(updateView(_:)), userInfo: nil, repeats: true)
     }
     
-    func updateView(_ timerObject: Timer) {
+    @objc func updateView(_ timerObject: Timer) {
         if (movePoint.y < (frame.size.width * 32)/100) {
             timer.invalidate()
             timer = nil
