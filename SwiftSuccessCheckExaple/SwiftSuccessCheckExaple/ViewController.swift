@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     //callback called when duration value change
-    func onDurationChange(){
+    @objc func onDurationChange(){
         scView.removeFromSuperview()
         playSuccessCheck(withDuration: Double(durationSlider.value))
     }
